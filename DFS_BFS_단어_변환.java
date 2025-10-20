@@ -10,7 +10,7 @@ class Solution {
     public int bfs(String begin, String target, String[] words) {
         Queue<String[]> q = new LinkedList<>();
         q.offer(new String[]{ begin, "0"});
-        // 여기 isVisited true 안 함
+        // 여기 isVisited true 안 함 
         
         while(!q.isEmpty()) {
             String []current = q.poll();
